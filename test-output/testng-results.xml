@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-23T12:44:32 BDT" name="GoogleSearch" finished-at="2022-11-23T12:45:10 BDT" duration-ms="38105">
+    <groups>
+    </groups>
+    <test started-at="2022-11-23T12:44:32 BDT" name="SearchFacebookAndAccess" finished-at="2022-11-23T12:45:10 BDT" duration-ms="38105">
+      <class name="testScenarios.TestMethods_GoogleSearch">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testScenarios.TestMethods_GoogleSearch@619713e5]" started-at="2022-11-23T12:44:32 BDT" name="beforeTest" finished-at="2022-11-23T12:44:34 BDT" duration-ms="1551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="SearchOperation()[pri:0, instance:testScenarios.TestMethods_GoogleSearch@619713e5]" started-at="2022-11-23T12:44:34 BDT" name="SearchOperation" finished-at="2022-11-23T12:44:41 BDT" duration-ms="7925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchOperation -->
+        <test-method signature="VerifyAndAccessFacebook()[pri:1, instance:testScenarios.TestMethods_GoogleSearch@619713e5]" started-at="2022-11-23T12:44:41 BDT" name="VerifyAndAccessFacebook" finished-at="2022-11-23T12:44:46 BDT" duration-ms="4035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAndAccessFacebook -->
+        <test-method signature="VerifyLogin()[pri:2, instance:testScenarios.TestMethods_GoogleSearch@619713e5]" started-at="2022-11-23T12:44:46 BDT" name="VerifyLogin" finished-at="2022-11-23T12:45:10 BDT" duration-ms="24470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testScenarios.TestMethods_GoogleSearch@619713e5]" started-at="2022-11-23T12:45:10 BDT" name="afterTest" finished-at="2022-11-23T12:45:10 BDT" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testScenarios.TestMethods_GoogleSearch -->
+    </test> <!-- SearchFacebookAndAccess -->
+  </suite> <!-- GoogleSearch -->
+</testng-results>
